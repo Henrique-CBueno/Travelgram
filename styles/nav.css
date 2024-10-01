@@ -1,0 +1,31 @@
+nav{
+    /* elemento um do lado do outro */
+    display: flex;
+    /* espaco um no inicio e outro no final */
+    justify-content: space-between;
+    /* alinhar itens */
+    align-items: center;
+    line-height: 0;
+    /* padding em cima e em baixo */
+    padding-block: 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    /* alinhar itens */
+    align-items: center;
+}
+
+nav ul li:last-child img{
+    width: 40px;
+    height: 40px;
+    /* cobrir 40 por 40px */
+    object-fit: cover;
+    /* arredondar a imagem */
+    border-radius: 50%;
+
+    gap: 20px;
+
+    padding-block: 8px;
+}
