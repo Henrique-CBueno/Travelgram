@@ -15,6 +15,10 @@ nav ul{
     display: flex;
     /* alinhar itens */
     align-items: center;
+    
+    gap: 20px;
+
+    padding-block: 8px;
 }
 
 nav ul li:last-child img{
@@ -24,8 +28,4 @@ nav ul li:last-child img{
     object-fit: cover;
     /* arredondar a imagem */
     border-radius: 50%;
-
-    gap: 20px;
-
-    padding-block: 8px;
 }
