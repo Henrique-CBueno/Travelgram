@@ -1,12 +1,15 @@
 main{
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 24px;
     padding-block: 24px;
 }
 
 main img{
-    width: 286px;
-    height: 286px;
+    /* width: 286px;
+    height: 286px; */
+    width: 100%;
     object-fit: cover;
 }
