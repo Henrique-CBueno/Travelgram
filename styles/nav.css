@@ -16,7 +16,7 @@ nav ul{
     /* alinhar itens */
     align-items: center;
     
-    gap: 20px;
+    gap: 24px;
 
     padding-block: 8px;
 }
